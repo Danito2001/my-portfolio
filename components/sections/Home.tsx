@@ -40,8 +40,9 @@ export default function Home() {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
                         {
-                            servicesHabilities.map( ({icon, content, title}) => (
+                            servicesHabilities.map( ({icon, content, title}, index) => (
                                 <ServiceCard
+                                    key={index}
                                     icon={icon}
                                     content={content} 
                                     title={title}

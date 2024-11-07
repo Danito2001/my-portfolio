@@ -34,8 +34,9 @@ export default function Navbar() {
                         </div>
                         <div className="hidden md:flex space-x-4 items-center">
                             {
-                                navItems.map( ({title, href}) => (
+                                navItems.map( ({title, href}, index) => (
                                     <h3 
+                                        key={index}
                                         className={`cursor-pointer rounded-lg p-2 ${currentComponent === href ? 'bg-[#289435]' : ''}`} 
                                         onClick={() => setCurrentComponent(href as ComponentOptions)}
                                     >   

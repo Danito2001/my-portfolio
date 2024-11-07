@@ -19,8 +19,11 @@ export default function HabilitiesComponent({icons, title, text}: Props) {
                         (icons === null)
                          ? null
                          : (
-                            icons?.map( icon => (
-                                <div>{icon}</div>
+                            icons?.map( (icon, index) => (
+                                <div key={index}
+                                >
+                                    {icon}
+                                </div>
                             ))
                          )
                        

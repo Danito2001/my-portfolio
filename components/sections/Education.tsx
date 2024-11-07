@@ -95,8 +95,9 @@ export default function Education() {
                         <h2 className="text-[#227e2d] font-semibold text-3xl">Educación</h2>
                         <div className="my-auto border border-t-[#227e2d] w-32"></div>
                         {
-                            education.map(e => (
+                            education.map( (e, index) => (
                                 <AccordionComponent
+                                    key={index}
                                     content={e.content}
                                     src={e.src}
                                     title={e.title}
@@ -116,8 +117,9 @@ export default function Education() {
                         <div className="my-auto border border-t-[#227e2d] w-32"></div>
                         <div className="flex flex-col lg:flex-row gap-4">
                             {
-                                InProcess.map(({ title, plataform, description }) => (
+                                InProcess.map(({ title, plataform, description }, index) => (
                                     <CardComponent
+                                        key={index}
                                         title={title}
                                         plataform={plataform}
                                         description={description}

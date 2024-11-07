@@ -14,8 +14,9 @@ export default function Habilities() {
                         <div className="my-auto border border-t-[#227e2d] w-32"></div>
                     </div>
                     {
-                        habilitiesContent.habilities.map( hability => (
+                        habilitiesContent.habilities.map( (hability, index) => (
                             <HabilitiesComponent
+                                key={index}
                                 icons={hability.icons} 
                                 title={hability.title} 
                                 text={hability.text}
@@ -32,8 +33,9 @@ export default function Habilities() {
                     <div className="my-auto border border-t-[#227e2d] w-60"></div>
                 </div>
                 {
-                    habilitiesContent.softHabilities.map( hability => (
+                    habilitiesContent.softHabilities.map( (hability, index) => (
                         <HabilitiesComponent
+                            key={index}
                             title={hability.title} 
                             text={hability.text}
                         />

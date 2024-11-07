@@ -17,8 +17,9 @@ export default function Sidebar() {
 
             <div className="flex flex-col justify-center text-center text-[#f5e8c7] space-y-6 py-4 rounded-xl">
                 {
-                    navItems.map(({ title, href }) => (
+                    navItems.map(({ title, href }, index) => (
                         <h3
+                            key={index}
                             className={`cursor-pointer rounded-lg p-2 ${currentComponent === href ? 'bg-[#289435]' : ''}`}
                             onClick={() => {
                                 setCurrentComponent(href as ComponentOptions);

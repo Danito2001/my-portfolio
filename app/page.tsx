@@ -9,7 +9,7 @@ import Navbar from '@/components/Navbar/Navbar';
 
 
 
-export default function() {
+export default function MainPage() {
 
     const { currentComponent } = useComponent()
 
