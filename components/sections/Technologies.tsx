@@ -1,6 +1,6 @@
 import { FaHtml5, FaReact, FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript, SiRedux, SiExpress, SiPrisma, SiAxios } from "react-icons/si";
+import { SiTypescript, SiRedux, SiExpress, SiPrisma, SiAxios, SiReactrouter  } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -38,8 +38,8 @@ export default function Technologies() {
                         </div>
                     </div>
                     <div className="bg-[#201d1d] p-4 rounded-lg space-y-2">
-                        <h3 className="font-semibold">Frameworks</h3>
-                        <div className="flex space-x-4">
+                        <h3 className="font-semibold">Frameworks/Librerias</h3>
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                             <div className="flex flex-col items-center">
                                 <FaReact className="text-blue-500" size={40} />
                                 <span>React</span>
@@ -47,6 +47,10 @@ export default function Technologies() {
                             <div className="flex flex-col items-center">
                                 <RiNextjsFill className="text-black-500" size={40} />
                                 <span>Next.js</span>
+                            </div>
+                            <div className="flex flex-col items-center">
+                                <SiReactrouter className="text-red-500" size={40} />
+                                <span>React Router</span>
                             </div>
                         </div>
                     </div>
@@ -62,7 +66,7 @@ export default function Technologies() {
                     </div>
                     <div className="bg-[#201d1d] p-4 rounded-lg space-y-2">
                         <h3 className="font-semibold">Estilos</h3>
-                        <div className="flex space-x-4">
+                        <div className="grid grid-cols-2 gap-4">
                             <div className="flex flex-col items-center">
                                 <FaCss3Alt className="text-blue-500" size={40} />
                                 <span>CSS</span>
