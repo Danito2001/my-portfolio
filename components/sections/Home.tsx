@@ -16,7 +16,7 @@ export default function Home() {
                     <div className="space-y-2">
                         <h2 className="font-semibold text-4xl">Hola, Soy un Desarrollador Front End</h2>
                         <p className="opacity-85 w-full md:w-1/2 pb-2">
-                            apasionado por crear diseños de aplicaciones web y darles vida usando código y desarrollando diseño móvil
+                            Apasionado por crear diseños de aplicaciones web y darles vida usando código y desarrollando diseño móvil
                         </p>
                         <Button 
                             onClick={() => window.open('/cv.pdf', '_blank')}

@@ -10,9 +10,10 @@ interface Props {
 	src: string;
 	title: string;
 	subTitle: string;
+	certificate?: string;
 }
 
-export default function App({content, src, title, subTitle}: Props) {
+export default function App({content, src, title, subTitle, certificate}: Props) {
 
 	const responsiveTitle = title.replace('Certificado De', '')
 
@@ -70,7 +71,10 @@ export default function App({content, src, title, subTitle}: Props) {
 			>
 				<div className="flex flex-col items-center space-y-4 bg-[#201d1d] rounded-lg p-4">
         			<p className="text-[#f5e8c7]">{content}</p>
-					<Button className="bg-[#289435] text-[#f5e8c7]">
+					<Button 
+						onClick={() => window.open(certificate, '_blank')}
+						className="bg-[#289435] text-[#f5e8c7]"
+					>
 						Ver certificado
 					</Button>
 				</div>

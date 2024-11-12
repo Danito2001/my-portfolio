@@ -7,6 +7,7 @@ export const education = [
 	    src: "/imgs/udemy.png" ,
 	    title: "Certificado De React JS Desde Cero",
 	    subTitle: "Udemy", 
+        certificate: '/certificates/react_certificate.pdf'
     },
     {
         content: `Curso de Next.js que enseñará a construir aplicaciones web modernas con React y Next.js, aprovechando las funcionalidades 
@@ -14,6 +15,7 @@ export const education = [
 	    src: "/imgs/udemy.png" ,
 	    title: "Certificado De Next JS SSR",
 	    subTitle: "Udemy", 
+        certificate: '/certificates/next_certificate.pdf'
     },
     {
         content: `He aprendido estos lenguajes y frameworks a través de la práctica constante en proyectos freelance y desarrollo de 

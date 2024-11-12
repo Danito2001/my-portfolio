@@ -102,6 +102,7 @@ export default function Education() {
                                     src={e.src}
                                     title={e.title}
                                     subTitle={e.subTitle}
+                                    certificate={e.certificate}
                                 />
                             ))
                         }
