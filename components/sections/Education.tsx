@@ -34,6 +34,7 @@ export default function Education() {
                                 <span className="bg-orange-500 p-2 rounded-lg">HTML5</span>
                                 <span className="bg-blue-500 p-2 rounded-lg">TypeScript</span>
                                 <span className="bg-blue-500 p-2 rounded-lg">React JS</span>
+                                <span className="bg-purple-500 p-2 rounded-lg">Redux Toolkit</span>
                                 <span className="bg-black p-2 rounded-lg">Next JS</span>
                             </div>
                             <div className="flex underline justify-between">
@@ -68,7 +69,7 @@ export default function Education() {
                                 <span className="bg-green-800 p-2 rounded-lg">Prisma</span>
                                 <span className="bg-blue-700 p-2 rounded-lg">PostgreSQL</span>
                                 <span className="bg-orange-500 p-2 rounded-lg">HTML5</span>
-                                <span className="bg-blue-500 p-2 rounded-lg">CSS3</span>
+                                <span className="bg-blue-500 p-2 rounded-lg">TailwindCSS</span>
                                 <span className="bg-blue-500 p-2 rounded-lg">TypeScript</span>
                                 <span className="bg-blue-500 p-2 rounded-lg">React JS</span>
                                 <span className="bg-black p-2 rounded-lg">Next JS</span>
