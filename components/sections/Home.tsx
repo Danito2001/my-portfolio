@@ -19,7 +19,7 @@ export default function Home() {
                             Apasionado por crear diseños de aplicaciones web y darles vida usando código y desarrollando diseño móvil
                         </p>
                         <Button 
-                            onClick={() => window.open('/cv.pdf', '_blank')}
+                            onClick={() => window.open('/DaniCv.pdf', '_blank')}
                             className="bg-[#289435] text-[#f5e8c7]"
                         >
                             Ver CV
