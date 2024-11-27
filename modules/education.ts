@@ -41,4 +41,11 @@ export const InProcess = [
             Kubernetes y Jenkins para implementar integración continua (CI) y entrega continua (CD). El curso cubre la creación y gestión 
             de contenedores, orquestación de microservicios en Kubernetes, y automatización de pipelines con Jenkins.`
     },
+    {
+        title: "Curso de Vue.js",
+        plataform: "Udemy",
+        description: `Actualmente aprendiendo desarrollo de aplicaciones web con Vue.js. El curso cubre temas como directivas, 
+        composición de componentes con Composition API, manejo de estado con Pinia, creación de rutas dinámicas con Vue Router, 
+        y prácticas avanzadas como pruebas unitarias y despliegue a producción.`
+    },
 ]
